@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 	<title>Warunpong JW</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +14,6 @@
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 	<!-- credit by W3.CSS -->
-	
-	<div></div>
 	
 	<!-- Sidebar -->
 	<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
@@ -44,18 +43,26 @@
 		<!-- Photo grid -->
 		<div class="w3-row">
 		
-		<div class="w3-third">
-			<img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-		</div>
+			<div class="w3-third">
+				<img src="/w3images/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+			</div>
 
-		<div class="w3-third">
-			<img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-		</div>
+			<div class="w3-third">
+				<img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+			</div>
     
-		<div class="w3-third">
-			<img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+			<div class="w3-third">
+				<img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+			</div>
+		
 		</div>
 		
+		<div id="modal101" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+			<span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+			<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+				<img id="img01" class="w3-image">
+				<p id="caption"></p>
+			</div>
 		</div>
 	</div>
 	
